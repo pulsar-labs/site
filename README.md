@@ -23,7 +23,6 @@ These instructions will help you set up and run your Hugo site locally for devel
 2. Navigate to project root.
     ```
     cd site
-
     ```
 3. Run [local development server](http://127.0.0.1:1313/) on `http://127.0.0.1:1313`
     ```
