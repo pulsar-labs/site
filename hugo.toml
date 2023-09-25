@@ -1,0 +1,4 @@
+baseURL = 'https://pulsar-labs.co.uk'
+languageCode = 'en-us'
+title = 'Pulsar Labs'
+theme = 'hugo-bearcub'
