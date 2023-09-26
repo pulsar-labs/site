@@ -1,23 +1,19 @@
 ---
-title: "Welcome to Pulsar Labs"
-date: 2023-09-25T10:00:00+00:00
+title: "Home"
+menu: "main"
+weight: 1
 description: "Explore Nano-Satellite Subsystems, Communication Protocols, and Long-Range Data Transmission solutions at Pulsar Labs."
 ---
 
-**Advancing Space Technology and Communications**
+Welcome to Pulsar Labs, an engineering research team working within the domain of space technology and communications. Our work spans nano-satellite subsystems, space communication protocols, and robust long-range data transmission.
 
-Welcome to Pulsar Labs, a research team working in the field of space technology and communications. Our core mission is to perform research & development in the field of nano-satellite subsystems, space communication protocols, and the design of robust long-range data transmission solutions.
+We focus on the core components of successful space missions, including specialized nano-satellite operating systems, automated subsystems, and secure data transfer protocols.
 
-Our team of experts in systems design, software engineering, aeronautics, and more, has a pragmatic and diligent approach to tackling the complexities of space exploration in the digital age.
+Our approach is methodical and pragmatic, guided by precision and deep space expertise. We aim for durability, efficiency, forward-thinking design, and cost-effective manufacturing.
 
-In an era where space technology plays an ever-expanding role in the areas of scientific discovery, Earth observation, and telecommunications, we address the need for reliable and modern solutions in an ever-expanding field. Our research is primarily centred on the fundamental components that underpin successful space missions, including specialised nano-satellite operating systems and efficient, secure data-transfer protocols.
-
-We take pride in our methodical approach to research, with all of our efforts being guided by precision and a profound respect for the challenges presented by the space environment. Our goal is to create systems with solid foundations, employing a strong focus on durability and efficiency, whilst employing forward-thinking and cost-effective build and design strategies.
-
-Please explore our growing collection of work, delve into our research, and consider the possibilities that could be acheived through innovation.
+Please explore our growing collection of work and research.
 
 
-## About Us
 
 **Our Mission**
 
