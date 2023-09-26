@@ -4,7 +4,6 @@
 
 A static Hugo site for the [Pulsar Labs](https://pulsar-labs.co.uk) homepage.
 
-
 ## Getting Started
 
 These instructions will help you set up and run your Hugo site locally for development and testing purposes.
