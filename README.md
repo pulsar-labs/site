@@ -26,7 +26,7 @@ These instructions will help you set up and run your Hugo site locally for devel
     ```
 3. Run [local development server](http://127.0.0.1:1313/) on `http://127.0.0.1:1313`
     ```
-    hugo -D
+    hugo server -D
     ```
 
 ### Adding Content
@@ -58,8 +58,13 @@ echo "theme = 'ananke'" >> hugo.toml
 
 1. Build the site.
 
-```
-hugo
-```
+    ```
+    hugo
+    ```
+
+2. Deploy to GCS.
+    ```
+    hugo deploy
+    ```
 
 
