@@ -5,19 +5,18 @@ weight: 1
 description: "Explore Nano-Satellite Subsystems, Communication Protocols, and Long-Range Data Transmission solutions at Pulsar Labs."
 ---
 
-Welcome to Pulsar Labs, an engineering research team working within the domain of space technology and communications. Our work spans nano-satellite subsystems, space communication protocols, and robust long-range data transmission.
+Welcome to Pulsar Labs, an engineering research team working within the space and communications industry. Our work spans nano-satellite subsystems, space communication protocols, and robust long-range data transmission pipelines.
 
 We focus on the core components of successful space missions, including specialized nano-satellite operating systems, automated subsystems, and secure data transfer protocols.
 
-Our approach is methodical and pragmatic, guided by precision and deep space expertise. We aim for durability, efficiency, forward-thinking design, and cost-effective manufacturing.
+Our approach to both research and development is methodical and pragmatic, guided by precision and deep expertise within the domain. We aim for durability, efficiency, forward-thinking design, and of course, cost-effective production.
 
-Please explore our growing collection of work and research.
-
+Please explore our growing collection of work and research, and feel free to contact us with any enquiries.
 
 
 **Our Mission**
 
-At Pulsar Labs, our mission is simply to create systems that benefit scientific discovery, Earth observation, and telecommunications via space technology. We strive to push the boundaries of what's currently possible, and implement reliable, modern, cost-effective solutions for space deployments and communications systems.
+At Pulsar Labs, our mission is simply to create systems that benefit scientific discovery, Earth observation, and telecommunications via space technology. We strive to push the boundaries of what's currently possible, and implement reliable, modern, economical solutions for small space deployments and communications systems.
 
 ## Research Focus
 
@@ -57,4 +56,4 @@ We actively seek collaboration with universities, research institutions, and ind
 
 ## Contact Us
 
-Pulsar Labs, Anton Studios, London E8 2AD
+Pulsar Labs, Anton Studios, Anton Street, London, E8 2AD.
