@@ -5,13 +5,13 @@ weight: 1
 description: "Explore Nano-Satellite Subsystems, Communication Protocols, and Long-Range Data Transmission solutions at Pulsar Labs."
 ---
 
-Welcome to Pulsar Labs, an engineering research team working within the space and communications industry. Our work spans nano-satellite subsystems, space communication protocols, and robust long-range data transmission pipelines.
+Welcome to Pulsar Labs, an engineering research team working across nano-satellite subsystems, space communication protocols, and robust long-range data transmission pipelines.
 
-We focus on the core components of successful space missions, including specialized nano-satellite operating systems, automated subsystems, and secure data transfer protocols.
+We focus on the core components of successful space missions, including specialised nano-satellite operating systems, automated subsystems, secure data transfer protocols and data processing & analysis systems.
 
-Our approach to both research and development is methodical and pragmatic, guided by precision and deep expertise within the domain. We aim for durability, efficiency, forward-thinking design, and of course, cost-effective production.
+Our approach to both research and development is methodical and pragmatic, guided by precision and deep expertise across several domains. We aim for durability, efficiency, forward-thinking design, and of course, cost-effective production.
 
-Please explore our growing collection of work and research, and feel free to contact us with any enquiries.
+Please explore our growing collection of work and research, and feel free to contact us with any enquiries you may have.
 
 
 **Our Mission**
