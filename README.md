@@ -55,15 +55,4 @@ echo "theme = 'ananke'" >> hugo.toml
 
 ### Deployment
 
-1. Build the site.
-
-    ```
-    hugo
-    ```
-
-2. Deploy to GCS.
-    ```
-    hugo deploy
-    ```
-
-
+Netlify CI/CD run when changes are merged into `main` branch, and automatically deployed to `https://pulsar-labs.co.uk
