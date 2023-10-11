@@ -1,7 +1,7 @@
 +++
 author = "Tobias Jone"
 title = "L-NN"
-date = "2019-03-10"
+date = "2023-10-10"
 description = "L-NN - a lightweight non-parametrised supervised-learning algorithm"
 tags = [
     "research",
@@ -9,7 +9,7 @@ tags = [
     "machine learning"
 ]
 +++
-# White Paper - Application of a Lightweight Distance-Based Classification Algorithms in Nano-Satellite Technology
+# White Paper - Application of a Lightweight Distance-Based Classification-Algorithm in Nano-Satellite Technology
 By: Tobias Jone
 
 ## Introduction
