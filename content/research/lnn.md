@@ -12,6 +12,19 @@ tags = [
 # White Paper - Application of a Lightweight Distance-Based Classification-Algorithm in Nano-Satellite Technology
 By: Tobias Jone
 
+
+**Abstract**
+
+This paper investigates the application of a lightweight distance-based classification algorithm, Light Nearest Neighbours (L-NN), in the context of nano-satellite technology. Nano-satellites, with their limited computational and power resources, present unique challenges for traditional classification algorithms. L-NN, inspired by the k Nearest Neighbours (k-NN) method, but with a distinct approach, offers an efficient and resource-conserving solution for classifying data captured by nano-satellite sensor systems.
+
+The paper begins with an introduction to nano-satellite technology and the challenges it poses for conventional machine learning algorithms. It then delves into the details of the L-NN algorithm, explaining its core principles and how it differs from traditional k-NN. Special attention is given to data-compression and its critical role in optimising bandwidth usage and decision-making on board nano-satellites.
+
+Implementations of L-NN in the field of nano-satellite technology are also discussed, highlighting its potential applications in remote sensing, real-time decision-making, and adaptability to variable environments. It compares L-NN to AI and CNN (Convolutional Neural Network) models, showcasing its advantages in resource efficiency, data reduction, and real-time responsiveness.
+
+Results from preliminary experiments on various datasets demonstrate the algorithm's promise in a simulated satellite environment. The paper concludes with speculative application, plans for further optimisation, the exploration of advanced distance metrics, and the enhancement of performance in high-dimensional datasets.
+
+In summary, the application of L-NN holds significant potential for undertaking data-classification and decision-making in nano-satellite technology. By addressing the resource limitations of these small spacecraft, L-NN contributes to the efficient use of resources, mission success, and the advancement of space exploration.
+
 ## Introduction
 
 In this paper, we explore the design and application of a distance-based classification algorithm, Light Nearest Neighbour (L-NN), within the domain of nano-satellite technology. Nano-satellites, with their constrained resources and remote operational environments, present unique challenges that can benefit from innovative classification techniques. 
