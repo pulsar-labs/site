@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Pulsar Labs - Home"
 menu: "main"
 weight: 1
 description: "Pulsar Labs specialises in engineering bespoke IoT solutions and offers expert commercial consultation services for various industries."
