@@ -5,15 +5,12 @@ weight: 1
 description: "Pulsar Labs specialises in engineering bespoke IoT solutions and offers expert commercial consultation services for various industries."
 ---
 
-Welcome to Pulsar Labs, where we specialise in engineering bespoke IoT solutions and offer expert commercial consultation services tailored to the unique needs of various industries.
-
-**Our Mission:**
-Creating cutting-edge IoT systems and providing tailored consultation services, whilst always pushing the boundaries of what's currently possible.
+Welcome to Pulsar Labs, where we specialise in engineering bespoke IoT, industrial-scale data-processing, and secure logistics systems. We also offer expert commercial consultation services tailored to the unique needs of various industries, and always strive to push the boundaries of what's currently possible.
 
 ## Research Focus
 
 - **IoT Systems:** Developing and designing IoT systems for data-capture, data-transmission, and logistics.
-- **ML, Data Engineering, and Software:** Extensive experience in ML/AI, data engineering, and building production-scale software systems.
+- **Machine Learning, Data Engineering, and Software:** Extensive experience in ML/AI, data engineering, and the design and build of production-scale software systems.
 
 **Commercial Consultation Services:**
 Unlock the full potential of your business with our expert consultation services. We provide insights and solutions for:
