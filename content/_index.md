@@ -1,11 +1,11 @@
 ---
-title: "Pulsar Labs - Home"
+title: "Home"
 menu: "main"
 weight: 1
 description: "Pulsar Labs specialises in engineering bespoke IoT solutions and offers expert commercial consultation services for various industries."
 ---
 
-Welcome to Pulsar Labs, where we specialise in engineering bespoke IoT, industrial-scale data-processing, and secure logistics systems. We also offer expert commercial consultation services tailored to the unique needs of various industries, and always strive to push the boundaries of what's currently possible.
+Welcome to Pulsar Labs, where we specialise in engineering bespoke IoT, industrial-scale data-processing systems, and secure logistics solutions. We also offer expert commercial consultation services tailored to the unique needs of various industries, and always strive to push the boundaries of what's currently possible.
 
 ## Research Focus
 
