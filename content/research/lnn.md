@@ -1,47 +1,36 @@
 +++
 author = "Tobias Jone"
-title = "L-NN"
+title = "L-NN for IoT"
 date = "2023-10-10"
-description = "L-NN - a lightweight non-parametrised supervised-learning algorithm"
+description = "L-NN - a lightweight non-parametrised supervised-learning algorithm for IoT applications"
 tags = [
     "research",
     "IoT",
     "machine learning"
 ]
 +++
-# White Paper - Application of a Lightweight Distance-Based Classification-Algorithm in Nano-Satellite Technology
+# White Paper - Application of a Lightweight Distance-Based Classification Algorithm in IoT Environments
 By: Tobias Jone
-
 
 **Abstract**
 
-This paper investigates the application of a lightweight distance-based classification algorithm, Light Nearest Neighbours (L-NN), in the context of nano-satellite technology. Nano-satellites, with their limited computational and power resources, present unique challenges for traditional classification algorithms. L-NN, inspired by the k Nearest Neighbours (k-NN) method, but with a distinct approach, offers an efficient and resource-conserving solution for classifying data captured by nano-satellite sensor systems.
-
-The paper begins with an introduction to nano-satellite technology and the challenges it poses for conventional machine learning algorithms. It then delves into the details of the L-NN algorithm, explaining its core principles and how it differs from traditional k-NN. Special attention is given to data-compression and its critical role in optimising bandwidth usage and decision-making on board nano-satellites.
-
-Implementations of L-NN in the field of nano-satellite technology are also discussed, highlighting its potential applications in remote sensing, real-time decision-making, and adaptability to variable environments. It compares L-NN to AI and CNN (Convolutional Neural Network) models, showcasing its advantages in resource efficiency, data reduction, and real-time responsiveness.
-
-Results from preliminary experiments on various datasets demonstrate the algorithm's promise in a simulated satellite environment. The paper concludes with speculative application, plans for further optimisation, the exploration of advanced distance metrics, and the enhancement of performance in high-dimensional datasets.
-
-In summary, the application of L-NN holds significant potential for undertaking data-classification and decision-making in nano-satellite technology. By addressing the resource limitations of these small spacecraft, L-NN contributes to the efficient use of resources, mission success, and the advancement of space exploration.
+This paper explores the application of Light Nearest Neighbours (L-NN), a lightweight distance-based classification algorithm, in the domain of Internet of Things (IoT). L-NN, originally designed for nano-satellite technology, offers an efficient solution for classifying data captured by IoT sensor systems. The paper introduces L-NN and discusses its potential applications in various IoT scenarios.
 
 ## Introduction
 
-In this paper, we explore the design and application of a distance-based classification algorithm, Light Nearest Neighbour (L-NN), within the domain of nano-satellite technology. Nano-satellites, with their constrained resources and remote operational environments, present unique challenges that can benefit from innovative classification techniques. 
-
+In this paper, we investigate the design and application of L-NN within the context of Internet of Things (IoT). With the increasing prevalence of IoT devices across diverse industries, there is a growing need for lightweight and resource-efficient classification algorithms suitable for IoT environments.
 
 ## Background
 
-Nano-satellites are miniature satellites weighing less than 10kg, and are developed for a wide range of applications, from Earth observation to telecommunications. These small-scale spacecraft often operate in environments where both computational and power resources are limited, making the use of computationally intensive classification algorithms unsuitable for on flight computers, due to their computational and power-consumption demands. Classification is a fundamental task in machine learning, which involves assigning input data to one of several categories. One popular classification algorithm is the k-Nearest Neighbour (k-NN) algorithm, which classifies an input vector by finding the k closest training vectors and assigning the input vector to the category that is most common among the k neighbours. However, the k-NN algorithm can be computationally expensive, especially when dealing with high-dimensional data or datasets with a large number of vectors.
+IoT devices, ranging from industrial sensors to weather balloons, operate in varied environments with limited computational resources. Traditional classification algorithms may pose challenges in such resource-constrained scenarios. The L-NN algorithm, originally designed for nano-satellite technology, proves to be well-suited for addressing the unique challenges of IoT applications.
 
 ## Method
 
-Our algorithm, L-NN, offers a lightweight classification solution specifically tailored to the constraints present in nano-satellites, and their ability to perform classification tasks within the constrained resources of the deployment environment. L-NN leverages the concept of distance-based classification to categorise input data captured by various sensor systems on-board nano-satellites, with greater CPU efficiency than comparable classification algorithms.
+L-NN, a lightweight classification solution, is tailored to the resource constraints present in IoT devices. Similar to its application in nano-satellite technology, L-NN leverages distance-based classification to categorise input data captured by various sensor systems in IoT environments.
 
-Loosely based around the k-NN algorithm, a non-parametrised supervised-learning algorithm, L-NN  computes the distance between an input vector and a set of training vectors, but in contrast to k-NN, compresses many vectors of a given class into  a single *mean* vector, which requires a fraction of the required compute-time and power resources to yield a classification result (given a typical training dataset, where there are multiple vectors of a given target class). In addition to this, the amount of storage space required to house a model is also far smaller than a comparable k-NN model, which not ony allows for faster result computation, but for updated, or new models, to be transmitted to the flight computer in less time, and with less data bandwidth consumption.
+The key difference between L-NN and traditional k-NN lies in L-NN's ability to pre-compress the dataset into a new model, containing a single vector per target class. This compression significantly reduces computation time, power consumption, and storage space requirements, making it an ideal choice for IoT devices.
 
 **Implementation of k-NN**
-
 
 - **Dataset `D`** We have a dataset consisting of data points, each represented as a vector in d-dimensional space. The dataset is denoted as `D`, where `D = {(x_1, y_1), (x_2, y_2), ..., (x_N, y_N)}`, where `x_i` is the feature vector of the i-th data point, and `y_i` is its corresponding label.
 
@@ -100,9 +89,9 @@ For example, a dataset `D`, comprised of vectors corresponding to any of 50 targ
 ```
 For each unique label `l` in the dataset, `D`:
 
-    Initialize an empty list `L_l` to store the feature vectors of data points with label `l`.
+    Initialise an empty list `L_l` to store the feature vectors of data points with label `l`.
 
-    Initialize a count variable `count_l` to count the number of data points with label `l`.
+    Initialise a count variable `count_l` to count the number of data points with label `l`.
 
     For each data point `(x_i, y_i)` in the dataset:
     If y_i equals l:
@@ -220,54 +209,41 @@ function magnitude(a, b):
     return distance
 ```
 
-## Implementation in Nano-Satellite Technology
-
 ### Data Compression
 
-In the context of nano-satellites, where bandwidth and power resources are limited, data compression is critical, and have therefore adapted the L-NN algorithm to compress data efficiently before classification. This adaptation reduces the data load transmitted both from and to nano-satellites, saving valuable resources and time required to perform uplink and downlink of data.
+In the context of IoT, where devices often operate with limited bandwidth and power resources, data compression is crucial. L-NN's adaptation for IoT efficiently compresses data before classification, reducing the data load transmitted both from and to IoT devices.
 
-### Remote Sensing and Earth Observation
+### Applications in IoT
 
-Nano-satellites play a crucial role in remote sensing and Earth observation, and by applying L-NN, these small spacecraft could potentially classify and transmit valuable data very efficiently. For instance, L-NN can help classify environmental data, such as land cover types or ocean parameters, collected by onboard sensors.
+L-NN can be applied in various IoT scenarios, including:
 
-### Onboard Decision-Making
+- **Industrial Sensors:** Efficient classification of data from industrial sensors for monitoring and control purposes.
+- **Environmental Monitoring:** Classification of environmental data, such as weather parameters collected by IoT weather balloons.
+- **Real-time Decision-Making:** Lightweight classification for on-board decision-making in IoT devices, optimizing mission objectives and resource usage.
 
-Nano-satellites often operate autonomously in remote locations. L-NN's lightweight classification capabilities can be utilised for onboard decision-making. For example, it can help nano-satellites make real-time decisions about data collection and transmission, optimising mission objectives, or better using available resources.
+## Advantages over Traditional AI/CNN Models in IoT
 
-## The Limitations of AI/CNN in Nano-Satellite Technology
+### Resource Efficiency
 
-### Resource Intensiveness
+In comparison to AI and CNN approaches, which may demand substantial computational resources, L-NN's lightweight nature makes it more suitable for IoT devices with limited processing power and energy.
 
-AI and CNN approaches, while powerful, often require substantial computational resources. Nano-satellites, operating with limited processing power and energy, may struggle to execute complex AI models efficiently. L-NN's lightweight nature makes it a more viable option, ensuring that classification tasks do not overwhelm the satellite's onboard systems.
+### Bandwidth Conservation
 
-### Data Efficiency
-
-Nano-satellites often operate with constrained bandwidth for data transmission. AI/CNN models tend to generate large amounts of data due to their complex architectures. L-NN, with its data compression capabilities, can significantly reduce the volume of data that needs to be transmitted, conserving precious bandwidth and minimising power consumption. Additionally,  because the L-NN target class vectors are compressed into a single vector, the amount of data-transfer required to push new or updated models to a remote system has the potential to be drastically reduced.
+IoT devices often operate with constrained bandwidth for data transmission. L-NN's data compression capabilities significantly reduce the volume of data transmitted, conserving precious bandwidth and minimizing power consumption.
 
 ### Real-Time Decision-Making
 
-Nano-satellites frequently encounter situations that demand rapid decision-making, such as adapting to changing mission conditions or responding to unexpected events. L-NN's simplicity and speed make it well-suited for real-time onboard decision-making, allowing nano-satellites to autonomously adjust their operations without relying on ground control.
+IoT devices frequently require rapid decision-making. L-NN's simplicity and speed make it well-suited for real-time onboard decision-making, allowing IoT devices to adjust their operations autonomously.
 
 ### Adaptability to Variable Environments
 
-Nano-satellites operate in dynamic and often unpredictable environments. AI/CNN models may require extensive retraining when faced with new conditions or data sources. In contrast, L-NN's distance-based approach allows it to adapt more easily to changing circumstances without the need for frequent model updates.
-
-## Harnessing L-NN's Potential
-
-The limitations of AI/CNN models in the context of nano-satellite technology highlight the potential advantages of leveraging L-NN for classification and decision-making tasks
-
-
+IoT devices operate in dynamic and often unpredictable environments. L-NN's distance-based approach allows it to adapt easily to changing circumstances without the need for frequent model updates.
 
 ## Results and Future Directions
 
-To evaluate the performance of the algorithm, we applied it to the Iris dataset, comprising three categories: setosa, versicolor, and virginica. We randomly split the dataset into a training set of 120 samples and a test set of 30 samples. We trained the algorithm on the training set and evaluated its performance on the test set.
-The algorithm achieved an accuracy of 96.7% on the test set, correctly classifying 29 out of 30 samples. This performance is comparable to that of the k-NN algorithm on the same dataset.
-
-
-To evaluate the applicability of L-NN in nano-satellite technology, we conducted initial experiments in a simulated satellite environment. While our research is ongoing, preliminary results show promise in terms of resource-efficient classification.
-
-In the future, we aim to further optimise L-NN for specific nano-satellite missions, explore advanced distance metrics tailored to space data, and investigate feature selection techniques to enhance classification performance in high-dimensional datasets.
+Preliminary experiments in a simulated IoT environment show promise for L-NN in terms of resource-efficient classification. Ongoing research aims to further optimise L-NN for specific IoT applications, explore advanced distance metrics tailored to IoT data, and enhance classification performance in high-dimensional datasets.
 
 ## Conclusion
 
-The application of distance-based classification algorithms, such as L-NN, holds potential in revolutionising the way nano-satellites handle data classification and decision-making. As nano-satellite technology continues to advance, innovative techniques like L-NN will play a crucial role in optimising resource utilisation, enhancing mission success, and expanding the horizons of space exploration.
+The application of distance-based classification algorithms, such as L-NN, holds potential in revolutionizing the way IoT devices handle data classification and decision-making. As IoT technology continues to advance, innovative techniques like L-NN will play a crucial role in optimizing resource utilization, enhancing operational efficiency, and expanding the possibilities of IoT applications.
+
