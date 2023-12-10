@@ -245,5 +245,5 @@ Preliminary experiments in a simulated IoT environment show promise for L-NN in 
 
 ## Conclusion
 
-The application of distance-based classification algorithms, such as L-NN, holds potential in revolutionizing the way IoT devices handle data classification and decision-making. As IoT technology continues to advance, innovative techniques like L-NN will play a crucial role in optimizing resource utilization, enhancing operational efficiency, and expanding the possibilities of IoT applications.
+The application of distance-based classification algorithms, such as L-NN, holds potential in transforming the way IoT devices handle data classification and decision-making locally. As IoT technology continues to advance, innovative techniques like L-NN will play a crucial role in optimising resource utilisation, enhancing operational efficiency, and expanding the possibilities of IoT applications.
 
