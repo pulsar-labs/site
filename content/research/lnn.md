@@ -14,7 +14,9 @@ By: Tobias Jone
 
 **Abstract**
 
-This paper explores the application of Light Nearest Neighbours (L-NN), a lightweight distance-based classification algorithm which has been derived from the widely known 'k Nearest Neighbours' algorithm (k-NN), for use with in the domain of the Internet of Things (IoT). L-NN, originally designed for classification tasks within embedded nano-sattelite systems, offers an efficient and extremely lightweight solution for classifying data, primarily from sensors captured by IoT, and other resource-contstrained systems. The paper introduces L-NN, discusses the potential applications in a variety of real-world scenarios, and also investigates possible avenues for further development and improvement, both in terms of accuracy, resource efficiency and power consumption.
+This paper explores the application of Light Nearest Neighbours (L-NN), a lightweight distance-based classification algorithm which has been derived from the widely known 'k Nearest Neighbours' algorithm (k-NN), for use with in the domain of the Internet of Things (IoT).
+
+L-NN, originally designed for classification tasks within embedded nano-satellite systems, offers an efficient and extremely lightweight solution for classifying data, primarily from sensors captured by IoT, and other resource-contstrained systems. The paper introduces L-NN, discusses the potential applications in a variety of real-world scenarios, and also investigates possible avenues for further development and improvement, both in terms of accuracy, resource efficiency and power consumption.
 
 ## Introduction
 
