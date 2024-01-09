@@ -14,19 +14,19 @@ By: Tobias Jone
 
 **Abstract**
 
-This paper explores the application of Light Nearest Neighbours (L-NN), a lightweight distance-based classification algorithm, in the domain of Internet of Things (IoT). L-NN, originally designed for nano-satellite technology, offers an efficient solution for classifying data captured by IoT sensor systems. The paper introduces L-NN and discusses its potential applications in various IoT scenarios.
+This paper explores the application of Light Nearest Neighbours (L-NN), a lightweight distance-based classification algorithm which has been derived from the widely known 'k Nearest Neighbours' algorithm (k-NN), for use with in the domain of the Internet of Things (IoT). L-NN, originally designed for classification tasks within embedded nano-sattelite systems, offers an efficient and extremely lightweight solution for classifying data, primarily from sensors captured by IoT, and other resource-contstrained systems. The paper introduces L-NN, discusses the potential applications in a variety of real-world scenarios, and also investigates possible avenues for further development and improvement, both in terms of accuracy, resource efficiency and power consumption.
 
 ## Introduction
 
-In this paper, we investigate the design and application of L-NN within the context of Internet of Things (IoT). With the increasing prevalence of IoT devices across diverse industries, there is a growing need for lightweight and resource-efficient classification algorithms suitable for IoT environments.
+In this paper, we investigate the design, application and implementation of the L-NN algorithm, specifically within the domain of IoT. With the increasing prevalence of IoT devices spanning a diverse array of industries, there is a growing need for lightweight, reliable, and resource-efficient classification algorithms which are not only suitable for, but specifically designed for such environments.
 
 ## Background
 
-IoT devices, ranging from industrial sensors to weather balloons, operate in varied environments with limited computational resources. Traditional classification algorithms may pose challenges in such resource-constrained scenarios. The L-NN algorithm, originally designed for nano-satellite technology, proves to be well-suited for addressing the unique challenges of IoT applications.
+IoT devices, ranging from industrial and agricultural sensors, to weather balloons and nano-satellites, operate in varied environmental conditions, and often with limited computational and energy resources. Commonly used classification algorithms may pose challenges in such resource-constrained scenarios, in terms of the required capacity to store and transmit a given model, the time taken to return a classification, and the amount of energy required to classify unseen data. The L-NN algorithm, initially designed for use within nano-satellites technology, proves to be well-suited to addressing the unique challenges posed by IoT applications.
 
 ## Method
 
-L-NN, a lightweight classification solution, is tailored to the resource constraints present in IoT devices. Similar to its application in nano-satellite technology, L-NN leverages distance-based classification to categorise input data captured by various sensor systems in IoT environments.
+L-NN is specifically tailored to the resource constraints present in IoT devices and embedded systems, and leverages distance-based classification to categorise input data captured by various systems, such as sensors, within IoT environments.
 
 The key difference between L-NN and traditional k-NN lies in L-NN's ability to pre-compress the dataset into a new model, containing a single vector per target class. This compression significantly reduces computation time, power consumption, and storage space requirements, making it an ideal choice for IoT devices.
 
@@ -198,6 +198,7 @@ function classify(vector, dataset, outputs):
 
     return outputs[i]
 
+
 function magnitude(a, b):
     distance = 0.0
 
@@ -221,7 +222,7 @@ L-NN can be applied in various IoT scenarios, including:
 - **Environmental Monitoring:** Classification of environmental data, such as weather parameters collected by IoT weather balloons.
 - **Real-time Decision-Making:** Lightweight classification for on-board decision-making in IoT devices, optimizing mission objectives and resource usage.
 
-## Advantages over Traditional AI/CNN Models in IoT
+## Advantages over AI/CNN Models in IoT
 
 ### Resource Efficiency
 
